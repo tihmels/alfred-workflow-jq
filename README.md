@@ -4,30 +4,30 @@
 
 The **JQ JSON Parser** Alfred Workflow allows you to quickly apply jq queries to JSON data stored in your clipboard. It simplifies parsing, filtering, and analyzing JSON data directly in Alfred.
 
+## Installation
+
+1. **Download the workflow** from the [Release Page](https://github.com/tihmels/alfred-workflow-jq/releases/tag/0.0.1).
+2. Import the workflow into Alfred.
+3. Follow the setup instructions below to configure dependencies.
+
 ## Requirements
 
 1. **Alfred**: Requires Alfred (with Powerpack).
 2. **jq**: Install via Homebrew:
-
    ```bash
    brew install jq
    ```
 3. **Python Virtual Environment**:
    - Create the virtual environment **in the workflow folder**:
-
      ```bash
      cd /path/to/your/alfred/workflow/folder
      python3 -m venv venv
      ```
-
    - Activate the virtual environment:
-
      ```bash
      source venv/bin/activate
      ```
-
    - Install dependencies:
-   
      ```bash
      pip install -r requirements.txt
      ```

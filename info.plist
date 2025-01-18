@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string></string>
+	<string>tihmels.jq</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
@@ -40,7 +40,7 @@
 	<key>createdby</key>
 	<string></string>
 	<key>description</key>
-	<string></string>
+	<string>An Alfred Workflow to run jq queries on JSON data directly from your clipboard. Simplifies parsing, filtering, and analyzing JSON with formatted results displayed in Alfred’s Text View. Ideal for developers and QA engineers.</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -152,6 +152,10 @@
 	</dict>
 	<key>userconfigurationconfig</key>
 	<array/>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>0.0.1</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>
