@@ -14,20 +14,24 @@ The **JQ JSON Parser** Alfred Workflow allows you to quickly apply jq queries to
 
 1. **Alfred**: Requires Alfred (with Powerpack).
 2. **jq**: Install via Homebrew:
+
    ```bash
    brew install jq
    ```
 3. **Python Virtual Environment**:
    - Create the virtual environment **in the workflow folder**:
+
      ```bash
      cd /path/to/your/alfred/workflow/folder
      python3 -m venv venv
      ```
    - Activate the virtual environment:
+
      ```bash
      source venv/bin/activate
      ```
    - Install dependencies:
+
      ```bash
      pip install -r requirements.txt
      ```
@@ -63,25 +67,3 @@ jq .name
 ```json
 "Alice"
 ```
-
----
-
-## Troubleshooting
-
-1. **Invalid JSON**: Ensure the clipboard contains properly formatted JSON.
-2. **Invalid jq Query**: Check the [jq Manual](https://stedolan.github.io/jq/manual/).
-3. **Virtual Environment Issues**:
-   - Activate:
-     ```bash
-     source venv/bin/activate
-     ```
-   - Verify dependencies:
-     ```bash
-     pip list
-     ```
-
----
-
-## License
-
-This workflow is released under the [MIT License](https://opensource.org/licenses/MIT).
