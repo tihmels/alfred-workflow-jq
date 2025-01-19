@@ -87,9 +87,6 @@ def main(wf):
         "Examples: '.key', '.[] | .name', 'map(select(.age > 30))'"
     )
 
-    # Scroll behavior based on output length
-    scroll_behavior = "end" if len(jq_output.splitlines()) > 10 else "auto"
-
     # Build response JSON for Alfred Text View
     response_json = {
         "variables": {
@@ -100,7 +97,7 @@ def main(wf):
         "footer": footer_message,
         "behaviour": {
             "response": "replace",
-            "scroll": scroll_behavior,
+            "scroll": "auto",
             "inputfield": "select",
         },
     }
