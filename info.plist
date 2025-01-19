@@ -38,7 +38,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>Tjado Ihmels</string>
 	<key>description</key>
 	<string>An Alfred Workflow to run jq queries on JSON data directly from your clipboard. Simplifies parsing, filtering, and analyzing JSON with formatted results displayed in Alfred’s Text View. Ideal for developers and QA engineers.</string>
 	<key>disabled</key>
@@ -47,27 +47,6 @@
 	<string>JQ</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>keyword</key>
-				<string>jq</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Run jq query on clipboard content</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>B6F13958-E7E9-403F-8B80-22983D63865A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -98,6 +77,27 @@
 			<string>alfred.workflow.userinterface.text</string>
 			<key>uid</key>
 			<string>7DA14594-DD09-46C1-9E81-F5E87ACFDFA7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>jq</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Run jq query on clipboard content</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B6F13958-E7E9-403F-8B80-22983D63865A</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
